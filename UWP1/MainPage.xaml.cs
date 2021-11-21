@@ -119,7 +119,7 @@ namespace UWP1
         {
             using (AgentContext db = new AgentContext())
             {
-                mainListBox.ItemsSource = db.Agents.ToList();
+                mainListBox.ItemsSource = db.Agents.FromSql("SELECT * FROM Agents ORDER BY Name").ToList();
             }
 
             infoTextBlock.Text = ApplicationData.Current.LocalFolder.Path;
