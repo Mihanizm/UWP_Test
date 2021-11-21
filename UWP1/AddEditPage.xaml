@@ -22,7 +22,7 @@
                 <TextBlock x:Name="eInfoTextBlock" Text="Может содержать латинские буквы, цифры, символы &quot;_&quot;, &quot;-&quot;, &quot;.&quot; и быть длиной не более 25 символов. Пример: &quot;pochta_123@mail.ru&quot;. Либо оставьте поле пустым" TextWrapping="Wrap" FontSize="14" Foreground="#FF3E3838"/>
                 <TextBox x:Name="emailTextBox" Text="" TextWrapping="NoWrap" HorizontalAlignment="Left" FontSize="30" MaxLength="22"/>
                 <TextBlock x:Name="phTextBlock" Text="Фотография (Не обязательно)" TextWrapping="Wrap" FontSize="18" Margin="0,30,0,0"/>
-                <TextBlock x:Name="phInfoTextBlock" Text="Рекомендуемый формат изображения 3:4" TextWrapping="Wrap" FontSize="14" Foreground="#FF3E3838"/>
+                <TextBlock x:Name="phInfoTextBlock" Text="Рекомендуемый размер изображения 300 x 300" TextWrapping="Wrap" FontSize="14" Foreground="#FF3E3838"/>
                 <Button x:Name="overviewButton" Content="Обзор" Click="OverviewButton_Click" Height="41" Width="113" FontSize="18"/>
                 <Image x:Name="overviewImage" Height="300" Width="300" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill" Margin="0,5,0,0"/>
             </StackPanel>
